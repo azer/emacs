@@ -27,6 +27,7 @@ and powerline, zsh, smex, undo-tree etc...
 
 ### Keybindings
 
+* M-i **ido-goto-symbol**
 * C-c C-m **Start Refactoring** ([More information](https://github.com/magnars/js2-refactor.el))
 * m-g n **run-js**
 * m-g m **js-send-region**
