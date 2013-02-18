@@ -14,7 +14,7 @@ $ ln -s emacs.js/init.el .emacs
 * [coffee-mode](https://github.com/defunkt/coffee-mode)
 * [expand-region](https://github.com/magnars/expand-region.el)
 * [jade-mode](https://github.com/brianc/jade-mode)
-* [js-comint/NodeJS](http://js-comint-el.sourceforge.net/)
+* [js-comint](http://js-comint-el.sourceforge.net/) (NodeJS)
 * [js2-mode](https://github.com/mooz/js2-mode)
 * [js2-refactor](https://github.com/magnars/js2-refactor.el)
 * [markdown-mode](https://github.com/defunkt/markdown-mode)
