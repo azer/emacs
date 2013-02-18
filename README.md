@@ -1,6 +1,6 @@
 emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 
-**Installation:**
+### Installation
 
 ```
 $ cd ~
@@ -8,7 +8,7 @@ $ git clone https://github.com/azer/emacs.js
 $ ln -s .emacs emacs.js/init.el
 ```
 
-**It comes with:**
+### It comes with
 
 * [auto-complete](https://github.com/auto-complete/auto-complete)
 * [coffee-mode](https://github.com/defunkt/coffee-mode)
@@ -24,7 +24,7 @@ $ ln -s .emacs emacs.js/init.el
 
 and powerline, zsh, smex, undo-tree etc...
 
-**Keybindings:**
+### Keybindings
 
 * m-g n **run-js**
 * m-g m **js-send-region**
@@ -45,7 +45,7 @@ and powerline, zsh, smex, undo-tree etc...
 * m-g p **magit-push**
 * m-z **zsh**
 
-**Notes**
+## Notes
 
 * If you have `magit` installed on your system, enable related config from profiles/default.el
 * If you have `emacs-w3m` installed on your system, enable related config from profiles/default.el
