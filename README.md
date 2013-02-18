@@ -6,6 +6,7 @@ emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 $ cd ~
 $ git clone https://github.com/azer/emacs.js
 $ ln -s emacs.js/init.el .emacs
+$ cd emacs.js && make
 ```
 
 ### It comes with
