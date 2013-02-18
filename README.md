@@ -26,9 +26,10 @@ and powerline, zsh, smex, undo-tree etc...
 
 **Keybindings:**
 
-* m-g n 'run-js
-* m-g m 'js-send-region
+* m-g n **run-js**
+* m-g m **js-send-region**
 * m-s s **er/expand-region**
+* C-j **zencoding-expand-yas**
 * [up] **smart-up**
 * [down] **smart-down**
 * [left] **smart-backward**
