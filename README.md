@@ -2,10 +2,10 @@ emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 
 ### Installation
 
-```
+```bash
 $ cd ~
 $ git clone https://github.com/azer/emacs.js
-$ ln -s .emacs emacs.js/init.el
+$ ln -s emacs.js/init.el .emacs
 ```
 
 ### It comes with
