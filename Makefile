@@ -3,7 +3,7 @@ DONE="${CHECK} DONE."
 
 all: install
 
-install: install-js2mode
+install: init-submodules install-js2mode
 	@echo $(DONE)
 
 install-js2mode:

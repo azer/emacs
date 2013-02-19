@@ -5,6 +5,8 @@ emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 ```bash
 $ cd ~
 $ git clone https://github.com/azer/emacs.js
+$ make
+# This will take a while.
 $ ln -s emacs.js/init.el .emacs
 $ cd emacs.js && make
 ```
