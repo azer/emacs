@@ -10,6 +10,12 @@ $ ln -s emacs.js/init.el .emacs
 $ cd emacs.js && make
 ```
 
+To check for updates;
+
+```bash
+$ make update
+```
+
 ### It comes with
 
 * [auto-complete](https://github.com/auto-complete/auto-complete)
