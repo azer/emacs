@@ -9,12 +9,14 @@ $ cd emacs.js
 $ make
 ```
 
-Backup your existing configuration; 
+Once you have emacs.js installed in your home directory, backup your existing configuration by the below command;
+
 ```bash
-mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
+$ mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
 ```
 
-Then make emacs.js your default configuration;
+Now emacs.js can be your default configuration. Just link 
+
 ```
 $ ln -s emacs.js/init.el .emacs
 ```
@@ -27,19 +29,31 @@ $ make update
 
 ### It comes with
 
-* [auto-complete](https://github.com/auto-complete/auto-complete)
-* [coffee-mode](https://github.com/defunkt/coffee-mode)
-* [expand-region](https://github.com/magnars/expand-region.el)
-* [jade-mode](https://github.com/brianc/jade-mode)
-* [js-comint](http://js-comint-el.sourceforge.net/) (NodeJS)
+Indention, Syntax Check and Accurate Highlighting
+
 * [js2-mode](https://github.com/mooz/js2-mode)
-* [js2-refactor](https://github.com/magnars/js2-refactor.el)
-* [markdown-mode](https://github.com/defunkt/markdown-mode)
-* [smart-forward](https://github.com/magnars/smart-forward.el)
+* [coffee-mode](https://github.com/defunkt/coffee-mode)
+
+Snippets & Auto-completion
+
+* [auto-complete](https://github.com/auto-complete/auto-complete)
 * [yasnippet](https://github.com/capitaomorte/yasnippet)
 * [zencoding](https://github.com/rooney/zencoding.git)
 
-and powerline, zsh, smex, undo-tree etc...
+Refactoring:
+
+* [js2-refactor](https://github.com/magnars/js2-refactor.el)
+
+Interpreter:
+
+* [js-comint](http://js-comint-el.sourceforge.net/) (NodeJS)
+
+Code Navigation:
+
+* [expand-region](https://github.com/magnars/expand-region.el)
+* [smart-forward](https://github.com/magnars/smart-forward.el)
+
+and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 
 ### Keybindings
 
