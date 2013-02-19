@@ -10,9 +10,15 @@ install-js2mode:
 	@cd libs/auto-complete/dict; \
 	ln -s javascript-mode js2-mode;
 
-clean-js2mode:
-	@rm -rf libs/js2-mode-compiled
+new-submodule:
+	@git submodule add ${git} libs/${name}
+
+update-supmodules:
+	git submodule foreach "(git checkout master; git pull)&"
 
 clean: clean-js2mode
+
+clean-js2mode:
+	@rm -rf libs/js2-mode-compiled
 
 .PHONY: clean
