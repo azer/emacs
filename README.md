@@ -6,7 +6,6 @@ emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 $ cd ~
 $ git clone https://github.com/azer/emacs.js
 $ make
-# This will take a while.
 $ ln -s emacs.js/init.el .emacs
 $ cd emacs.js && make
 ```
@@ -36,10 +35,10 @@ and powerline, zsh, smex, undo-tree etc...
 * m-g m     js-send-region
 * m-s s     er/expand-region
 * C-j       zencoding-expand-yas
-* [up]      smart-up
-* [down]    smart-down
-* [left]    smart-backward
-* [right]   smart-forward
+* up      smart-up
+* down    smart-down
+* left    smart-backward
+* right   smart-forward
 * m-r       replace-regexp
 * m-g g     go to line
 * C-x \     align=
