@@ -5,9 +5,18 @@ emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 ```bash
 $ cd ~
 $ git clone https://github.com/azer/emacs.js
+$ cd emacs.js
 $ make
+```
+
+Backup your existing configuration; 
+```bash
+mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
+```
+
+Then make emacs.js your default configuration;
+```
 $ ln -s emacs.js/init.el .emacs
-$ cd emacs.js && make
 ```
 
 To check for updates;
