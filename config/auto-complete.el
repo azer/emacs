@@ -1,4 +1,5 @@
 (add-lib-path "auto-complete")
+(add-lib-path "popup")
 
 (require 'auto-complete)
 (require 'auto-complete-config)

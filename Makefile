@@ -4,15 +4,13 @@ DONE="${CHECK} DONE."
 all: install
 
 install: init-submodules install-js2mode
+	@mkdir libs/color-theme/themes
 	@echo $(DONE)
 
 install-js2mode:
 	@echo "Installing js2-mode"
 	@mkdir libs/js2-mode-compiled
 	@cd libs/js2-mode && make && mv *.elc ../js2-mode-compiled/.
-
-	@cd libs/auto-complete/dict; \
-	ln -s javascript-mode js2-mode;
 
 init-submodules:
 	@echo "Initializing submodules"
