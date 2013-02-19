@@ -21,6 +21,11 @@ new-submodule:
 	@git submodule add ${git} libs/${name}
 	@echo $(DONE)
 
+update: update-repo update-submodules
+
+update-repo:
+	git pull origin master
+
 update-supmodules:
 	@echo "Updating submodules"
 	@git submodule foreach "(git checkout master; git pull)&"
