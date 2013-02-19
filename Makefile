@@ -25,6 +25,7 @@ update: update-repo update-submodules
 
 update-repo:
 	git pull origin master
+	@echo $(DONE)
 
 update-supmodules:
 	@echo "Updating submodules"
