@@ -30,26 +30,26 @@ and powerline, zsh, smex, undo-tree etc...
 ### Keybindings
 
 ```bash
-* M-i       *ido-goto-symbol*
-* C-c C-m   *Start Refactoring* ([More information](https://github.com/magnars/js2-refactor.el))
-* m-g n     *run-js*
-* m-g m     *js-send-region*
-* m-s s     *er/expand-region*
-* C-j       *zencoding-expand-yas*
-* [up]      *smart-up*
-* [down]    *smart-down*
-* [left]    *smart-backward*
-* [right]   *smart-forward*
-* m-r       *replace-regexp*
-* m-g g     *go to line*
-* C-x \     *align=*
-* m-c       *run-last-command*
-* m-g c     *run-new-command*
-* m-g s     *magit-status*
-* m-g l     *magit-log*
-* m-g f     *magit-pull*
-* m-g p     *magit-push*
-* m-z       *zsh*
+* M-i       ido-goto-symbol
+* C-c C-m   Start Refactoring. More info: https://github.com/magnars/js2-refactor.el
+* m-g n     run-js
+* m-g m     js-send-region
+* m-s s     er/expand-region
+* C-j       zencoding-expand-yas
+* [up]      smart-up
+* [down]    smart-down
+* [left]    smart-backward
+* [right]   smart-forward
+* m-r       replace-regexp
+* m-g g     go to line
+* C-x \     align=
+* m-c       run-last-command
+* m-g c     run-new-command
+* m-g s     magit-status
+* m-g l     magit-log
+* m-g f     magit-pull
+* m-g p     magit-push
+* m-z       zsh
 ```
 
 ## Notes
