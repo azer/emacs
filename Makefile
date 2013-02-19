@@ -10,7 +10,9 @@ install-js2mode:
 	@cd libs/auto-complete/dict; \
 	ln -s javascript-mode js2-mode;
 
-clean: 
+clean-js2mode:
 	@rm -rf libs/js2-mode-compiled
+
+clean: clean-js2mode
 
 .PHONY: clean
