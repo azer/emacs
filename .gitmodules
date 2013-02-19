@@ -1,6 +1,6 @@
 [submodule "libs/auto-complete"]
 	path = libs/auto-complete
-	url = https://github.com/auto-complete/auto-complete.git
+	url = git@github.com:azer/auto-complete.git
 [submodule "libs/coffee-mode"]
 	path = libs/coffee-mode
 	url = git@github.com:azer/coffee-mode.git
