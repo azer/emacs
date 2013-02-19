@@ -1,0 +1,48 @@
+[submodule "libs/auto-complete"]
+	path = libs/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
+[submodule "libs/coffee-mode"]
+	path = libs/coffee-mode
+	url = git@github.com:azer/coffee-mode.git
+[submodule "libs/dash"]
+	path = libs/dash
+	url = https://github.com/magnars/dash.el.git
+[submodule "libs/expand-region"]
+	path = libs/expand-region
+	url = https://github.com/magnars/expand-region.el.git
+[submodule "libs/jade-mode"]
+	path = libs/jade-mode
+	url = https://github.com/brianc/jade-mode.git
+[submodule "libs/js2-mode"]
+	path = libs/js2-mode
+	url = git@github.com:azer/js2-mode.git
+[submodule "libs/js2-refactor"]
+	path = libs/js2-refactor
+	url = https://github.com/magnars/js2-refactor.el.git
+[submodule "libs/markdown-mode"]
+	path = libs/markdown-mode
+	url = git@github.com:defunkt/markdown-mode.git
+[submodule "libs/mark-multiple"]
+	path = libs/mark-multiple
+	url = https://github.com/magnars/mark-multiple.el.git
+[submodule "libs/multiple-cursors"]
+	path = libs/multiple-cursors
+	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule "libs/powerline"]
+	path = libs/powerline
+	url = https://github.com/milkypostman/powerline.git
+[submodule "libs/smart-forward"]
+	path = libs/smart-forward
+	url = https://github.com/magnars/smart-forward.el.git
+[submodule "libs/smex"]
+	path = libs/smex
+	url = https://github.com/nonsequitur/smex.git
+[submodule "libs/undo-tree"]
+	path = libs/undo-tree
+	url = http://www.dr-qubit.org/git/undo-tree.git
+[submodule "libs/zencoding"]
+	path = libs/zencoding
+	url = https://github.com/rooney/zencoding.git
+[submodule "libs/yasnippet"]
+	path = libs/yasnippet
+	url = git@github.com:azer/yasnippet.git

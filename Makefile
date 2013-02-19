@@ -1,6 +1,10 @@
+CHECK=\033[32m✔\033[39m
+DONE="${CHECK} DONE."
+
 all: install
 
 install: install-js2mode
+	@echo $(DONE)
 
 install-js2mode:
 	@echo "Installing js2-mode"
@@ -10,11 +14,19 @@ install-js2mode:
 	@cd libs/auto-complete/dict; \
 	ln -s javascript-mode js2-mode;
 
+init-submodules:
+	@echo "Initializing submodules"
+	@git submodule init && git submodule update && git submodule status
+
 new-submodule:
+	@echo "Creating new submodule '${name}' from ${git}"
 	@git submodule add ${git} libs/${name}
+	@echo $(DONE)
 
 update-supmodules:
-	git submodule foreach "(git checkout master; git pull)&"
+	@echo "Updating submodules"
+	@git submodule foreach "(git checkout master; git pull)&"
+	@echo $(DONE)
 
 clean: clean-js2mode
 
