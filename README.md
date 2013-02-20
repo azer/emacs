@@ -15,7 +15,7 @@ Once you have emacs.js installed in your home directory, backup your existing co
 $ mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
 ```
 
-Now emacs.js can be your default configuration. Just link 
+Now emacs.js can be your default configuration;
 
 ```
 $ ln -s emacs.js/init.el .emacs
