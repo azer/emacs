@@ -1,3 +1,4 @@
+(add-lib-path "magit")
 (require 'magit)
 
 (global-set-key (kbd "M-g s") 'magit-status)
