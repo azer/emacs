@@ -29,7 +29,7 @@ $ make update
 
 ### It comes with
 
-* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects. [Screencast in Youtube](http://www.youtube.com/watch?v=ZmKHOaSpaJk) [Screencast.gif](https://dl.dropbox.com/s/jnuo3m5w5x0q8vw/npmel.gif)
+* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects. [Screencast in Youtube](http://www.youtube.com/watch?v=ZmKHOaSpaJk) or [Screencast.gif](https://dl.dropbox.com/s/jnuo3m5w5x0q8vw/npmel.gif)
 
 Indention, Syntax Check and Accurate Highlighting
 
