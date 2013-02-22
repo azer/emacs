@@ -21,7 +21,7 @@ new-submodule:
 	@git submodule add ${git} libs/${name}
 	@echo $(DONE)
 
-update: update-repo update-submodules
+update: update-repo init-submodules update-submodules
 
 update-repo:
 	git pull origin master
