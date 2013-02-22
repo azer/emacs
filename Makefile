@@ -27,7 +27,7 @@ update-repo:
 	git pull origin master
 	@echo $(DONE)
 
-update-supmodules:
+update-submodules:
 	@echo "Updating submodules"
 	@git submodule foreach "(git checkout master; git pull)&"
 	@echo $(DONE)
