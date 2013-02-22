@@ -49,3 +49,6 @@
 [submodule "libs/popup"]
 	path = libs/popup
 	url = https://github.com/auto-complete/popup-el.git
+[submodule "libs/npm"]
+	path = libs/npm
+	url = git@github.com:azer/npm.el.git
