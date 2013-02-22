@@ -29,6 +29,10 @@ $ make update
 
 ### It comes with
 
+Prototyping
+
+* [npm.el](http://github.com/azer/npm.el)
+
 Indention, Syntax Check and Accurate Highlighting
 
 * [js2-mode](https://github.com/mooz/js2-mode)
@@ -58,6 +62,7 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 ### Keybindings
 
 ```bash
+* M-n       npm-new (Create a new NodeJS project)
 * M-i       ido-goto-symbol
 * C-c C-m   Start Refactoring. More info: https://github.com/magnars/js2-refactor.el
 * m-g n     run-js
