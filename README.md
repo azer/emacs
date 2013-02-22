@@ -29,9 +29,7 @@ $ make update
 
 ### It comes with
 
-Prototyping
-
-* [npm.el](http://github.com/azer/npm.el)
+* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects.
 
 Indention, Syntax Check and Accurate Highlighting
 
