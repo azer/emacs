@@ -10,7 +10,7 @@
 (load-conf-file "eshell")
 (load-conf-file "expand-region")
 (load-conf-file "font")
-(load-conf-file "git")
+;;(load-conf-file "git")
 (load-conf-file "ido")
 (load-conf-file "idomenu")
 (load-conf-file "indent")
