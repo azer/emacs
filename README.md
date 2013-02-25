@@ -1,6 +1,6 @@
 emacs.js is a ready-to-use Emacs setup for JavaScript coders. 
 
-Screencast: http://www.youtube.com/watch?v=3blz3OAicwQ
+Screencast: http://www.youtube.com/watch?v=4iSfLy8qfbM&feature=youtu.be
 
 ### Installation
 
