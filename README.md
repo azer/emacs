@@ -20,7 +20,7 @@ $ mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
 Now emacs.js can be your default configuration;
 
 ```
-$ ln -s emacs.js/init.el .emacs
+$ ln -s emacs.js/init.el ~/.emacs
 ```
 
 To check for updates;
