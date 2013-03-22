@@ -21,7 +21,7 @@
 	url = https://github.com/magnars/js2-refactor.el.git
 [submodule "libs/markdown-mode"]
 	path = libs/markdown-mode
-	url = git@github.com:defunkt/markdown-mode.git
+	url = git://jblevins.org/git/markdown-mode.git
 [submodule "libs/mark-multiple"]
 	path = libs/mark-multiple
 	url = https://github.com/magnars/mark-multiple.el.git
