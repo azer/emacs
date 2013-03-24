@@ -31,7 +31,7 @@ $ make update
 
 ## It comes with
 
-* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects. [Screencast in Youtube](http://www.youtube.com/watch?v=ZmKHOaSpaJk) or [Screencast.gif](https://dl.dropbox.com/s/jnuo3m5w5x0q8vw/npmel.gif)
+* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects and very useful NPM bindings. [Screencast in Youtube](http://www.youtube.com/watch?v=ZmKHOaSpaJk) or [Screencast.gif](https://dl.dropbox.com/s/jnuo3m5w5x0q8vw/npmel.gif)
 
 Indention, Syntax Check and Accurate Highlighting
 
@@ -62,7 +62,13 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 ### Keybindings
 
 ```bash
-* M-n       npm-new (Create a new NodeJS project)
+* M-n n     npm-new (Create a new NodeJS project)
+* M-n d     npm-new-dependency (Installs and saves a new dependency)
+* M-n i     npm-install
+* M-n e     npm-nodemon-exec
+* M-n p     npm-publish
+* M-n t     npm-test
+* M-n v     npm-version
 * M-i       ido-goto-symbol
 * C-c C-m   Start Refactoring. More info: https://github.com/magnars/js2-refactor.el
 * m-g n     run-js
