@@ -102,6 +102,10 @@ Try also `rq`, `exp`, `fn`, `invoc`, `it`, `desc` keywords. To browse/fork all t
 
 [https://github.com/azer/yasnippet/blob/master/snippets/js2-mode](https://github.com/azer/yasnippet/blob/master/snippets/js2-mode)
 
+## Troubleshooting
+
+* js2-mode not working? Recompile js2-mode: `make install-js2mode`
+
 ## Notes
 
 * If you have `magit` installed on your system, enable related config from profiles/default.el
