@@ -9,7 +9,7 @@ install: init-submodules install-js2mode
 
 install-js2mode:
 	@echo "Installing js2-mode"
-	@mkdir libs/js2-mode-compiled
+	@mkdir -p libs/js2-mode-compiled
 	@cd libs/js2-mode && make && mv *.elc ../js2-mode-compiled/.
 
 init-submodules:
