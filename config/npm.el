@@ -6,5 +6,6 @@
 (global-set-key (kbd "M-n d") 'npm-new-dependency)
 (global-set-key (kbd "M-n e") 'npm-nodemon-exec)
 (global-set-key (kbd "M-n p") 'npm-publish)
+(global-set-key (kbd "M-n b") 'npm-patch)
 (global-set-key (kbd "M-n t") 'npm-test)
 (global-set-key (kbd "M-n v") 'npm-version)
