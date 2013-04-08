@@ -23,6 +23,7 @@
 
 (load-conf-file "markdown")
 (load-conf-file "npm")
+(load-conf-file "indev")
 (load-conf-file "powerline")
 (load-conf-file "smex")
 (load-conf-file "smart-forward")
