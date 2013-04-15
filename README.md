@@ -81,6 +81,8 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 * right     smart-forward
 * m-r       replace-regexp
 * m-g g     go to line
+* m-g f     go to forward line
+* m-g p     go to previous line
 * C-x \     align=
 * m-c       run-last-command
 * m-g c     run-new-command
