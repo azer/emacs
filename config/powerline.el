@@ -1,6 +1,6 @@
 (add-lib-path "powerline")
 (require 'powerline)
-(powerline-default)
+(powerline-default-theme)
 
 (setq-default mode-line-format
               '("%e"
