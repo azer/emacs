@@ -5,6 +5,10 @@
 (setq auto-save-default nil)
 (setq confirm-kill-emacs nil)
 
+(setq temporary-file-directory "/tmp/emacs.js")
+(setq auto-save-file-name-transforms
+                `((".*" ,temporary-file-directory t)))
+
 (setq-default truncate-lines nil)
 
 (setq visible-bell t
