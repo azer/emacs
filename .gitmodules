@@ -52,3 +52,6 @@
 [submodule "libs/npm"]
 	path = libs/npm
 	url = git@github.com:azer/npm.el.git
+[submodule "libs/relative-line-numbers"]
+	path = libs/relative-line-numbers
+	url = git://github.com/azer/linum-relativenumber.git
