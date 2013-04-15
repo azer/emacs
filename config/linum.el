@@ -1,5 +1,5 @@
 (add-lib-path "relative-line-numbers")
-(require 'linum-relativenumber)
+(require 'relative-linum)
 
 (global-linum-mode)
 
