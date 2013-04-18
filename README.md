@@ -1,4 +1,4 @@
-emacs.js is a ready-to-use Emacs setup for JavaScript coders. 
+emacs.js is a ready-to-use Emacs setup for JavaScript coders.
 
 Screencast: http://www.youtube.com/watch?v=4iSfLy8qfbM&feature=youtu.be
 
@@ -81,8 +81,8 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 * right     smart-forward
 * m-r       replace-regexp
 * m-g g     go to line
-* m-g f     go to forward line
-* m-g p     go to previous line
+* m-down    go to forward line
+* m-up      go to previous line
 * C-x \     align=
 * m-c       run-last-command
 * m-g c     run-new-command
@@ -96,7 +96,7 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 ## Snippets
 
 emacs.js comes with a wide variety of JavaScript snippets. If you're not familiar with yasnippet yet, open a JavaScript file
-and type "new", then hit the control and space buttons. 
+and type "new", then hit the control and space buttons.
 
 It'll let you initialize a new NodeJS module with require and export code, based on this template; [https://github.com/azer/yasnippet/blob/master/snippets/js2-mode/mod.yasnippet](https://github.com/azer/yasnippet/blob/master/snippets/js2-mode/mod.yasnippet)
 
