@@ -11,8 +11,5 @@
   (interactive "n Jump to previous line: ")
   (previous-line n))
 
-(define-key input-decode-map "\e\eOA" [(meta up)])
-(define-key input-decode-map "\e\eOB" [(meta down)])
-
-(global-set-key [(meta up)] 'linum-previous)
-(global-set-key [(meta down)] 'linum-forward)
+(global-set-key [up] 'linum-previous)
+(global-set-key [down] 'linum-forward)

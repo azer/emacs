@@ -1,7 +1,11 @@
 (add-lib-path "smart-forward")
 (require 'smart-forward)
 
-(global-set-key [up] 'smart-up)
-(global-set-key [down] 'smart-down)
+(define-key input-decode-map "\e\eOA" [(meta up)])
+(define-key input-decode-map "\e\eOB" [(meta down)])
+
+(global-set-key [(meta up)] 'smart-up)
+(global-set-key [(meta down)] 'smart-down)
+
 (global-set-key [left] 'smart-backward)
 (global-set-key [right] 'smart-forward)
