@@ -6,6 +6,15 @@
 (global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-c\C-k" 'kill-region)
 
+(global-set-key [left] 'undo)
+(global-set-key [right] 'redo)
+
+(define-key input-decode-map "\e\eOA" [(meta up)])
+(define-key input-decode-map "\e\eOB" [(meta down)])
+(global-set-key [(meta up)] 'scroll-down-command)
+(global-set-key [(meta down)] 'scroll-up-command)
+
+
 ;;(global-set-key [up] nil)
 ;;(global-set-key [down] nil)
 ;;(global-set-key [left] nil)

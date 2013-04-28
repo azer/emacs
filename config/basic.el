@@ -7,7 +7,9 @@
 
 (setq temporary-file-directory "/tmp/emacs.js")
 (setq auto-save-file-name-transforms
-                `((".*" ,temporary-file-directory t)))
+      `((".*" ,temporary-file-directory t)))
+
+(setq create-lockfiles nil)
 
 (setq-default truncate-lines nil)
 
