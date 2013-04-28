@@ -71,7 +71,7 @@ by John Gruber."
      (mode-line-buffer-id ((t (:background "#453d41" :foreground "#fff"))))
      (mode-line-inactive ((t (:background "#453d41" :foreground "#999"))))
      (minibuffer-prompt ((t (:foreground "#96A6C8"))))
-     (region ((t (:background "#484848"))))
+     (region ((t (:background "#222" :foreground "#ff0066"))))
      (secondary-selection ((t (:background "#484951" :foreground "#F4F4FF"))))
      (tooltip ((t (:background "#52494e" :foreground "#fff"))))
 
@@ -80,7 +80,7 @@ by John Gruber."
      (show-paren-mismatch-face ((t (:foreground "#f4f4ff" :background "#c73c3f"))))
      ;; Line highlighting
      (highlight ((t (:background "#282828" :foreground nil))))
-     (highlight-current-line-face ((t (:background "#282828" :foreground nil))))
+     (highlight-current-line-face ((t (:background "#111" :foreground nil))))
 
      ;; Calendar
      (holiday-face ((t (:foreground "#f43841"))))
