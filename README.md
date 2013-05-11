@@ -75,10 +75,10 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 * m-g m     js-send-region
 * m-s s     er/expand-region
 * C-j       zencoding-expand-yas
-* up        smart-up
-* down      smart-down
-* left      smart-backward
-* right     smart-forward
+* up        jump to up
+* down      jump to down
+* left      undo
+* right     redo
 * m-r       replace-regexp
 * m-g g     go to line
 * m-down    go to forward line
