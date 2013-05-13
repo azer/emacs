@@ -6,7 +6,7 @@
 	url = https://github.com/azer/coffee-mode.git
 [submodule "libs/dash"]
 	path = libs/dash
-	url = https://github.com/magnars/dash.el.gitazer
+	url = https://github.com/magnars/dash.el.git
 [submodule "libs/expand-region"]
 	path = libs/expand-region
 	url = https://github.com/magnars/expand-region.el.git
@@ -51,7 +51,7 @@
 	url = https://github.com/auto-complete/popup-el.git
 [submodule "libs/npm"]
 	path = libs/npm
-	url = git@github.com:azer/npm.el.git
+	url = https://github.com/azer/npm.el.git
 [submodule "libs/relative-line-numbers"]
 	path = libs/relative-line-numbers
 	url = https://github.com/azer/linum-relativenumber.git
