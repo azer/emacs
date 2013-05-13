@@ -1,2 +1,2 @@
 language: emacs-lisp
-script: make
+script: make install
