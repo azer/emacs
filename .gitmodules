@@ -45,7 +45,7 @@
 	url = https://github.com/rooney/zencoding.git
 [submodule "libs/yasnippet"]
 	path = libs/yasnippet
-	url = git@github.com:azer/yasnippet.git
+	url = https://github.com/azer/yasnippet.git
 [submodule "libs/popup"]
 	path = libs/popup
 	url = https://github.com/auto-complete/popup-el.git
