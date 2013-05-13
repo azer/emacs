@@ -1,4 +1,6 @@
-emacs.js is a ready-to-use Emacs setup for JavaScript coders.
+## emacs.js [![Build Status](https://travis-ci.org/azer/emacs.js.png)](https://travis-ci.org/azer/emacs.js)
+
+Ready-to-use Emacs setup for JavaScript coders.
 
 Screencast: http://www.youtube.com/watch?v=4iSfLy8qfbM&feature=youtu.be
 
