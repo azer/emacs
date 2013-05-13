@@ -1,7 +1,10 @@
-(defun zsh (buffer-name)
+(defun zsh ()
   "Start a terminal and rename buffer."
-  (interactive "sTerminal Title: ")
-  (term "/bin/zsh")
-    (rename-buffer buffer-name t))
+  (interactive)
+  (term "/bin/zsh"))
 
 (global-set-key (kbd "M-z") 'zsh)
+
+(add-hook 'term-mode-hook (lambda ()
+                            (setq show-trailing-whitespace nil)
+                            (linum-mode 0)))
