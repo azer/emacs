@@ -3,7 +3,7 @@
 	url = https://github.com/azer/auto-complete.git
 [submodule "libs/coffee-mode"]
 	path = libs/coffee-mode
-	url = git@github.com:azer/coffee-mode.git
+	url = https://github.com/azer/coffee-mode.git
 [submodule "libs/dash"]
 	path = libs/dash
 	url = https://github.com/magnars/dash.el.gitazer
@@ -15,7 +15,7 @@
 	url = https://github.com/brianc/jade-mode.git
 [submodule "libs/js2-mode"]
 	path = libs/js2-mode
-	url = git@github.com:azer/js2-mode.git
+	url = https://github.com/azer/js2-mode.git
 [submodule "libs/js2-refactor"]
 	path = libs/js2-refactor
 	url = https://github.com/magnars/js2-refactor.el.git
@@ -54,4 +54,4 @@
 	url = git@github.com:azer/npm.el.git
 [submodule "libs/relative-line-numbers"]
 	path = libs/relative-line-numbers
-	url = git://github.com/azer/linum-relativenumber.git
+	url = https://github.com/azer/linum-relativenumber.git
