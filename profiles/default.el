@@ -28,7 +28,7 @@
 (load-conf-file "powerline")
 (load-conf-file "smex")
 (load-conf-file "smart-forward")
-(load-conf-file "undo-tree")
+;;(load-conf-file "undo-tree")
 (load-conf-file "yasnippet")
 (load-conf-file "zsh")
 (load-conf-file "zencoding")
