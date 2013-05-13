@@ -37,9 +37,6 @@
 [submodule "libs/smex"]
 	path = libs/smex
 	url = https://github.com/nonsequitur/smex.git
-[submodule "libs/undo-tree"]
-	path = libs/undo-tree
-	url = http://www.dr-qubit.org/git/undo-tree.git
 [submodule "libs/zencoding"]
 	path = libs/zencoding
 	url = https://github.com/rooney/zencoding.git
