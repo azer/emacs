@@ -1,3 +1,5 @@
+;;(global-set-key (kbd "RET") 'newline-and-indent)
+
 (global-set-key (kbd "M-r") 'replace-regexp)
 (global-set-key (kbd "M-g u") 'undo)
 (global-set-key (kbd "M-g r") 'redo)

@@ -10,6 +10,7 @@
 (load-conf-file "cmd")
 ;;(load-conf-file "debug")
 (load-conf-file "eshell")
+(load-conf-file "erc")
 (load-conf-file "expand-region")
 (load-conf-file "font")
 ;;(load-conf-file "git")
