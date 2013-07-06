@@ -63,14 +63,26 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 
 ### Keybindings
 
+#### Arrow Buttons
+
+**Left:** Undo
+**Right:** Redo
+
+**Up:** Jump to up
+**Down:** Jump to down
+
+#### NPM (Meta-n)
+
+**M-n n:** Create a new NodeJS Project
+**M-n d:** Install and save new dependency
+**M-n i:** Run `npm install` on current directory
+**M-n p:** Publish the library on NPM
+**M-n t:** Run the test command
+**M-n v:** Bump NPM version
+
+#### Others
+
 ```bash
-* M-n n     npm-new (Create a new NodeJS project)
-* M-n d     npm-new-dependency (Installs and saves a new dependency)
-* M-n i     npm-install
-* M-n e     npm-nodemon-exec
-* M-n p     npm-publish
-* M-n t     npm-test
-* M-n v     npm-version
 * M-i       ido-goto-symbol
 * C-c C-m   Start Refactoring. More info: https://github.com/magnars/js2-refactor.el
 * m-g n     run-js
@@ -88,10 +100,6 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 * C-x \     align=
 * m-c       run-last-command
 * m-g c     run-new-command
-* m-g s     magit-status
-* m-g l     magit-log
-* m-g f     magit-pull
-* m-g p     magit-push
 * m-z       zsh
 ```
 
