@@ -66,18 +66,25 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 #### Arrow Buttons
 
 **Left:** Undo
+
 **Right:** Redo
 
 **Up:** Jump to up
+
 **Down:** Jump to down
 
 #### NPM (Meta-n)
 
 **M-n n:** Create a new NodeJS Project
+
 **M-n d:** Install and save new dependency
+
 **M-n i:** Run `npm install` on current directory
+
 **M-n p:** Publish the library on NPM
+
 **M-n t:** Run the test command
+
 **M-n v:** Bump NPM version
 
 #### Others
