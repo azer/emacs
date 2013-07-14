@@ -7,7 +7,7 @@
 
 (add-to-list 'ac-modes 'coffee-mode)
 
-(setq coffee-tab-width 4)
+(setq coffee-tab-width 2)
 
 (add-hook 'coffee-mode-hook
           (lambda ()
