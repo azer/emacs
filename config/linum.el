@@ -13,3 +13,5 @@
 
 (global-set-key [up] 'linum-previous)
 (global-set-key [down] 'linum-forward)
+
+(global-set-key (kbd "M-n l") 'global-linum-mode)
