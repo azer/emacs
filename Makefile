@@ -16,6 +16,9 @@ init-submodules:
 	@echo "Initializing submodules"
 	@git submodule init && git submodule update && git submodule status
 
+override:
+	ln -s ~/emacs.js/init.el ~/.emacs
+
 new-submodule:
 	@echo "Creating new submodule '${name}' from ${git}"
 	@git submodule add ${git} libs/${name}

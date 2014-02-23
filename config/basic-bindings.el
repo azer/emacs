@@ -16,6 +16,9 @@
 (global-set-key [(meta up)] 'scroll-down-command)
 (global-set-key [(meta down)] 'scroll-up-command)
 
+;;(global-set-key [(meta up)] 'previous-line)
+;;(global-set-key [(meta down)] 'next-line)
+
 (global-set-key (kbd "C-c r") 'rename-this-buffer-and-file)
 
 ;;(global-set-key [up] nil)

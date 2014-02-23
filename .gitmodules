@@ -52,3 +52,6 @@
 [submodule "libs/relative-line-numbers"]
 	path = libs/relative-line-numbers
 	url = https://github.com/azer/linum-relativenumber.git
+[submodule "libs/clojure-mode"]
+	path = libs/clojure-mode
+	url = https://github.com/clojure-emacs/clojure-mode.git
