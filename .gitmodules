@@ -55,3 +55,9 @@
 [submodule "libs/clojure-mode"]
 	path = libs/clojure-mode
 	url = https://github.com/clojure-emacs/clojure-mode.git
+[submodule "libs/gocode"]
+	path = libs/gocode
+	url = git@github.com:nsf/gocode.git
+[submodule "libs/go-errcheck"]
+	path = libs/go-errcheck
+	url = git@github.com:dominikh/go-errcheck.el.git

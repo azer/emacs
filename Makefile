@@ -21,7 +21,7 @@ override:
 
 new-submodule:
 	@echo "Creating new submodule '${name}' from ${git}"
-	@git submodule add ${git} libs/${name}
+	@git submodule add --force ${git} libs/${name}
 	@echo $(DONE)
 
 update: update-repo init-submodules update-submodules
