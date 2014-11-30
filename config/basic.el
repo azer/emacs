@@ -5,7 +5,7 @@
 (setq auto-save-default nil)
 (setq confirm-kill-emacs nil)
 
-(setq temporary-file-directory "/tmp/emacs.js")
+(setq temporary-file-directory "/tmp/")
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
@@ -49,7 +49,7 @@
 
 ;;remove all trailing whitespace and trailing blank lines before saving the file
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
-(add-hook 'before-save-hook 'delete-trailing-blank-lines)
+;;(add-hook 'before-save-hook 'delete-trailing-blank-lines)
 (setq-default show-trailing-whitespace t)
 
 ;; set uniquify separator
