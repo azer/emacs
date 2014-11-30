@@ -1,28 +1,26 @@
-## emacs.js [![Build Status](https://travis-ci.org/azer/emacs.js.png)](https://travis-ci.org/azer/emacs.js)
+## Azer's Emacs Setup [![Build Status](https://travis-ci.org/azer/emacs.js.png)](https://travis-ci.org/azer/emacs.js)
 
-Ready-to-use Emacs setup for JavaScript coders.
+Ready-to-use Emacs setup for JavaScript and Go programming.
 
-Screencast: http://www.youtube.com/watch?v=4iSfLy8qfbM&feature=youtu.be
-
-### Installation
+### Install
 
 ```bash
 $ cd ~
-$ git clone https://github.com/azer/emacs.js
-$ cd emacs.js
+$ git clone https://github.com/azer/emacs
+$ cd emacs
 $ make
 ```
 
-Once you have emacs.js installed in your home directory, backup your existing configuration by the below command;
+Backup your existing configuration:
 
 ```bash
 $ mkdir ~/emacsbak && mv ~/.emacs* ~/emacsbak/.
 ```
 
-Now emacs.js can be your default configuration;
+And enable this emacs distro:
 
 ```
-$ ln -s ~/emacs.js/init.el ~/.emacs
+$ ln -s ~/emacs/init.el ~/.emacs
 ```
 
 To check for updates;
@@ -31,37 +29,28 @@ To check for updates;
 $ make update
 ```
 
-## It comes with
+## What's included?
 
-* [npm.el](http://github.com/azer/npm.el) for creating new NodeJS projects and very useful NPM bindings. [Screencast in Youtube](http://www.youtube.com/watch?v=ZmKHOaSpaJk) or [Screencast.gif](https://dl.dropbox.com/s/jnuo3m5w5x0q8vw/npmel.gif)
-
-Indention, Syntax Check and Accurate Highlighting
-
+* [npm.el](http://github.com/azer/npm.el)
 * [js2-mode](https://github.com/mooz/js2-mode)
-* [coffee-mode](https://github.com/defunkt/coffee-mode)
-
-Snippets & Auto-completion
-
+* [go-mode](https://github.com/dominikh/go-mode.el)
+* [gocode](https://github.com/nsf/gocode)
+* [errcheck](https://github.com/kisielk/errcheck)
 * [auto-complete](https://github.com/auto-complete/auto-complete)
 * [yasnippet](https://github.com/capitaomorte/yasnippet)
 * [zencoding](https://github.com/rooney/zencoding.git)
-
-Refactoring:
-
 * [js2-refactor](https://github.com/magnars/js2-refactor.el)
-
-Interpreter:
-
-* [js-comint](http://js-comint-el.sourceforge.net/) (NodeJS)
-
-Code Navigation:
-
+* [js-comint](http://js-comint-el.sourceforge.net/)
 * [expand-region](https://github.com/magnars/expand-region.el)
 * [smart-forward](https://github.com/magnars/smart-forward.el)
+* powerline
+* jade-mode
+* zsh
+* smex
+* undo-tree
+* markdown-mode
 
-and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
-
-### Keybindings
+## Usage
 
 #### Arrow Buttons
 
@@ -79,13 +68,19 @@ and powerline, jade-mode, zsh, smex, undo-tree, markdown-mode etc...
 
 **M-n d:** Install and save new dependency
 
+**M-n e:** Install and save new development dependency
+
+**M-n s:** Search NPM
+
 **M-n i:** Run `npm install` on current directory
 
 **M-n p:** Publish the library on NPM
 
 **M-n t:** Run the test command
 
-**M-n v:** Bump NPM version
+**M-n v:** Make a new NPM version
+
+**M-n b:** Release new minor version
 
 #### Others
 
