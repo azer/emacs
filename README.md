@@ -52,37 +52,37 @@ $ make update
 
 ## Usage
 
-#### Arrow Buttons
+### Arrow Buttons
 
-**Left:** Undo
+* **Left:** Undo
+* **Right:** Redo
+* **Up:** Jump to up
+* **Down:** Jump to down
 
-**Right:** Redo
+### NPM
 
-**Up:** Jump to up
+* **M-n n:** Create a new NodeJS Project
+* **M-n d:** Install and save new dependency
+* **M-n e:** Install and save new development dependency
+* **M-n s:** Search NPM
+* **M-n i:** Run `npm install` on current directory
+* **M-n p:** Publish the library on NPM
+* **M-n t:** Run the test command
+* **M-n v:** Make a new NPM version
+* **M-n b:** Release new minor version
 
-**Down:** Jump to down
+### Go
 
-#### NPM (Meta-n)
+* **C-c C-d:** Describe the code
+* **C-c C-j:** Jump to the definition of the code
+* **C-c C-a:** Add new import
+* **C-c C-r:** Remove unused imports
+* **C-c i:** Go to imports
+* **C-c m:** Run error check
+* **C-M a:** Go to the beginning of the function
+* **C-M e:** Go to the end of the function
 
-**M-n n:** Create a new NodeJS Project
-
-**M-n d:** Install and save new dependency
-
-**M-n e:** Install and save new development dependency
-
-**M-n s:** Search NPM
-
-**M-n i:** Run `npm install` on current directory
-
-**M-n p:** Publish the library on NPM
-
-**M-n t:** Run the test command
-
-**M-n v:** Make a new NPM version
-
-**M-n b:** Release new minor version
-
-#### Others
+### Others
 
 ```bash
 * M-i       ido-goto-symbol
