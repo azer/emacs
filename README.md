@@ -1,4 +1,4 @@
-## Azer's Emacs Setup [![Build Status](https://travis-ci.org/azer/emacs.js.png)](https://travis-ci.org/azer/emacs.js)
+## Azer's Emacs Setup
 
 Ready-to-use Emacs setup for JavaScript and Go programming.
 
