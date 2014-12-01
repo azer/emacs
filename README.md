@@ -107,14 +107,8 @@ $ make update
 
 ## Snippets
 
-emacs.js comes with a wide variety of JavaScript snippets. If you're not familiar with yasnippet yet, open a JavaScript file
-and type "new", then hit the control and space buttons.
-
-It'll let you initialize a new NodeJS module with require and export code, based on this template; [https://github.com/azer/yasnippet/blob/master/snippets/js2-mode/mod.yasnippet](https://github.com/azer/yasnippet/blob/master/snippets/js2-mode/mod.yasnippet)
-
-Try also `rq`, `exp`, `fn`, `invoc`, `it`, `desc` keywords. To browse/fork all the snippets, visit;
-
-[https://github.com/azer/yasnippet/blob/master/snippets/js2-mode](https://github.com/azer/yasnippet/blob/master/snippets/js2-mode)
+* [JavaScript snippets](https://github.com/azer/yasnippet/blob/master/snippets/js2-mode)
+* [Go Snippets](https://github.com/azer/yasnippet/tree/master/snippets/go-mode)
 
 ## Troubleshooting
 
