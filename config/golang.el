@@ -7,6 +7,8 @@
 (require 'auto-complete-config)
 (require 'go-errcheck)
 
+(add-hook 'before-save-hook 'gofmt-before-save)
+
 (add-hook
  'go-mode-hook (lambda () (setq indent-tabs-mode t)))
 
