@@ -2,7 +2,7 @@
 
 Ready-to-use Emacs setup for JavaScript and Go programming.
 
-### Install
+## Install
 
 ```bash
 $ cd ~
