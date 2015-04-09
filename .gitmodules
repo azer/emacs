@@ -61,3 +61,6 @@
 [submodule "libs/go-errcheck"]
 	path = libs/go-errcheck
 	url = git@github.com:dominikh/go-errcheck.el.git
+[submodule "libs/slim"]
+	path = libs/slim
+	url = git@github.com:slim-template/emacs-slim.git
