@@ -34,3 +34,4 @@
 (load-conf-file "zsh")
 (load-conf-file "zencoding")
 (load-conf-file "slim")
+(load-conf-file "fiplr")

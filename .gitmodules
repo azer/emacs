@@ -64,3 +64,9 @@
 [submodule "libs/slim"]
 	path = libs/slim
 	url = git@github.com:slim-template/emacs-slim.git
+[submodule "libs/fiplr"]
+	path = libs/fiplr
+	url = git@github.com:grizzl/fiplr.git
+[submodule "libs/grizzl"]
+	path = libs/grizzl
+	url = git@github.com:grizzl/grizzl.git
