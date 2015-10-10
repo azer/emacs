@@ -1,6 +1,3 @@
-(add-lib-path "dash")
-(require 'dash)
-
 (add-lib-path "multiple-cursors")
 (require 'multiple-cursors)
 

@@ -3,7 +3,7 @@ DONE="${CHECK} DONE."
 
 all: install
 
-install: init-submodules install-js2mode
+install: init-submodules install-js2mode install-magit
 	@mkdir libs/color-theme/themes
 	@echo $(DONE)
 
@@ -11,13 +11,19 @@ install-js2mode:
 	@echo "Installing js2-mode"
 	@mkdir -p libs/js2-mode-compiled
 	@cd libs/js2-mode && make && mv *.elc ../js2-mode-compiled/.
+	@cp libs/js2-mode/js2-old-indent.el libs/js2-mode-compiled/.
+
+install-magit:
+	@echo "Installing magit"
+	@cd libs/magit && make
 
 init-submodules:
 	@echo "Initializing submodules"
 	@git submodule init && git submodule update && git submodule status
 
 override:
-	ln -s ~/emacs.js/init.el ~/.emacs
+	mv ~/.emacs ~/.emacs.bak
+	ln -s ~/emacs/init.el ~/.emacs
 
 new-submodule:
 	@echo "Creating new submodule '${name}' from ${git}"

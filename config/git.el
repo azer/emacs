@@ -1,7 +1,12 @@
-(add-lib-path "magit")
+(add-lib-path "magit/lisp")
 (require 'magit)
 
 (global-set-key (kbd "M-g s") 'magit-status)
 (global-set-key (kbd "M-g l") 'magit-log)
 (global-set-key (kbd "M-g f") 'magit-pull)
 (global-set-key (kbd "M-g p") 'magit-push)
+
+(with-eval-after-load 'info
+  (info-initialize)
+  (add-to-list 'Info-directory-list
+         (concat +emacs-lib-dir+ "/magit/Documentation")))

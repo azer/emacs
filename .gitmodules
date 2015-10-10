@@ -6,7 +6,7 @@
 	url = https://github.com/azer/coffee-mode.git
 [submodule "libs/dash"]
 	path = libs/dash
-	url = https://github.com/magnars/dash.el.git
+	url = git@github.com:magnars/dash.el.git
 [submodule "libs/expand-region"]
 	path = libs/expand-region
 	url = https://github.com/magnars/expand-region.el.git
@@ -70,3 +70,12 @@
 [submodule "libs/grizzl"]
 	path = libs/grizzl
 	url = git@github.com:grizzl/grizzl.git
+[submodule "libs/web-mode"]
+	path = libs/web-mode
+	url = git@github.com:fxbois/web-mode.git
+[submodule "libs/flycheck"]
+	path = libs/flycheck
+	url = git@github.com:flycheck/flycheck.git
+[submodule "libs/magit"]
+	path = libs/magit
+	url = git://github.com/magit/magit.git

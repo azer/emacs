@@ -1,5 +1,5 @@
 (defconst +home-dir+ "~")
-(defconst +emacs-dir+ (concat +home-dir+ "/emacs.js"))
+(defconst +emacs-dir+ (concat +home-dir+ "/emacs"))
 (defconst +emacs-profiles-dir+ (concat +emacs-dir+ "/profiles"))
 (defconst +emacs-lib-dir+ (concat +emacs-dir+ "/libs"))
 (defconst +emacs-conf-dir+ (concat +emacs-dir+ "/config"))

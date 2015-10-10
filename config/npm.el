@@ -7,6 +7,8 @@
 (global-set-key (kbd "M-n e") 'npm-new-dev-dependency)
 (global-set-key (kbd "M-n p") 'npm-publish)
 (global-set-key (kbd "M-n b") 'npm-patch)
+(global-set-key (kbd "M-n m") 'npm-minor)
+(global-set-key (kbd "M-n a") 'npm-major)
 (global-set-key (kbd "M-n t") 'npm-test)
 (global-set-key (kbd "M-n s") 'npm-search)
 (global-set-key (kbd "M-n v") 'npm-version)
