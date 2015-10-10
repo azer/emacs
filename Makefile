@@ -22,7 +22,6 @@ init-submodules:
 	@git submodule init && git submodule update && git submodule status
 
 override:
-	mv ~/.emacs ~/.emacs.bak
 	ln -s ~/emacs/init.el ~/.emacs
 
 new-submodule:

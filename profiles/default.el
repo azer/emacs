@@ -1,3 +1,4 @@
+(load-conf-file "solarized")
 (load-conf-file "align")
 (load-conf-file "auto-complete")
 (load-conf-file "appearance")
@@ -5,7 +6,7 @@
 (load-conf-file "basic-bindings")
 (load-conf-file "linum")
 (load-conf-file "colorize-compilation")
-(load-conf-file "colors")
+;;(load-conf-file "colors")
 (load-conf-file "optimize")
 (load-conf-file "cmd")
 ;;(load-conf-file "debug")

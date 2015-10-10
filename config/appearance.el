@@ -13,7 +13,8 @@
 
 ;;highlight current line
 (global-hl-line-mode 1)
-(set-face-background 'hl-line "#111")
+
+;;(set-face-background 'hl-line "#111")
 
 ;;set cursor colour
-(set-cursor-color "yellow")
+;;(set-cursor-color "yellow")

@@ -79,3 +79,9 @@
 [submodule "libs/magit"]
 	path = libs/magit
 	url = git://github.com/magit/magit.git
+[submodule "libs/solarized"]
+	path = libs/solarized
+	url = git@github.com:sellout/emacs-color-theme-solarized.git
+[submodule "libs/solarized-theme"]
+	path = libs/solarized-theme
+	url = git@github.com:sellout/emacs-color-theme-solarized.git
