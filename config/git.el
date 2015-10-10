@@ -3,8 +3,8 @@
 
 (global-set-key (kbd "M-g s") 'magit-status)
 (global-set-key (kbd "M-g l") 'magit-log)
-(global-set-key (kbd "M-g f") 'magit-pull)
-(global-set-key (kbd "M-g p") 'magit-push)
+(global-set-key (kbd "M-g f") 'magit-pull-current)
+(global-set-key (kbd "M-g p") 'magit-push-quickly)
 
 (with-eval-after-load 'info
   (info-initialize)
