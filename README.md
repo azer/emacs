@@ -69,7 +69,9 @@ $ make update
 * **M-n p:** Publish the library on NPM
 * **M-n t:** Run the test command
 * **M-n v:** Make a new NPM version
-* **M-n b:** Release new minor version
+* **M-n b:** Release new patch version
+* **M-n m:** Release new minor version
+* **M-n a:** Release new major version
 
 ### Go
 
@@ -81,6 +83,14 @@ $ make update
 * **C-c m:** Run error check
 * **C-M a:** Go to the beginning of the function
 * **C-M e:** Go to the end of the function
+* **C-c d:** Godoc at point
+
+### Git
+
+* **M-g s:** git status
+* **M-g l:** git log
+* **M-g f:** git pull 
+* **M-g p:** git push
 
 ### Others
 
