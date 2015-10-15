@@ -17,6 +17,9 @@ install-magit:
 	@echo "Installing magit"
 	@cd libs/magit && make
 
+install-helm:
+	@cd libs/helm && make
+
 init-submodules:
 	@echo "Initializing submodules"
 	@git submodule init && git submodule update && git submodule status

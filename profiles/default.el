@@ -9,7 +9,7 @@
 ;;(load-conf-file "colors")
 (load-conf-file "optimize")
 (load-conf-file "cmd")
-;;(load-conf-file "debug")
+;;(load-conf-file "helm")
 (load-conf-file "dash")
 (load-conf-file "eshell")
 (load-conf-file "erc")

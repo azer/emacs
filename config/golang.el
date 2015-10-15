@@ -1,4 +1,4 @@
-(add-lib-path "golang")
+(add-lib-path "go-mode")
 (add-lib-path "go-errcheck")
 (add-lib-path "gocode/emacs")
 
@@ -23,3 +23,6 @@
 
 (add-hook 'go-mode-hook (lambda ()
                           (local-set-key (kbd "C-c C-r") 'go-remove-unused-imports)))
+
+(add-hook 'go-mode-hook (lambda ()
+                          (local-set-key (kbd "C-c d") 'godoc-at-point)))

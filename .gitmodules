@@ -85,3 +85,12 @@
 [submodule "libs/solarized-theme"]
 	path = libs/solarized-theme
 	url = git@github.com:sellout/emacs-color-theme-solarized.git
+[submodule "libs/go-mode"]
+	path = libs/go-mode
+	url = git@github.com:dominikh/go-mode.el.git
+[submodule "libs/helm"]
+	path = libs/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "libs/async"]
+	path = libs/async
+	url = https://github.com/jwiegley/emacs-async.git
