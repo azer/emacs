@@ -3,7 +3,7 @@ DONE="${CHECK} DONE."
 
 all: install
 
-install: init-submodules install-js2mode install-magit
+install: init-submodules install-js2mode install-magit install-go-tools
 	@mkdir libs/color-theme/themes
 	@echo $(DONE)
 
@@ -19,6 +19,10 @@ install-magit:
 
 install-helm:
 	@cd libs/helm && make
+
+install-go-tools:
+  @go get code.google.com/p/rog-go/exp/cmd/godef
+	@go get -u github.com/nsf/gocode
 
 init-submodules:
 	@echo "Initializing submodules"
