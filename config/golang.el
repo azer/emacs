@@ -26,3 +26,10 @@
 
 (add-hook 'go-mode-hook (lambda ()
                           (local-set-key (kbd "C-c d") 'godoc-at-point)))
+
+(defun make-go-name (str)
+  "Take a string and make it a public variable name."
+  (replace-regexp-in-string " " ""
+                            (capitalize
+                             (replace-regexp-in-string "[^A-Za-z0-9]+" " " str)))
+  )

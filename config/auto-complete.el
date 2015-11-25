@@ -16,6 +16,7 @@
 (setq ac-use-menu-map t)
 (setq ac-quick-help-delay 1)
 (setq ac-quick-help-height 60)
+(setq ac-ignore-case nil)
 
 (set-default 'ac-sources
              '(ac-source-dictionary
