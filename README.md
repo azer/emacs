@@ -2,6 +2,8 @@
 
 Ready-to-use Emacs setup for JavaScript and Go programming.
 
+![](https://cldup.com/IqyLyhaTVM.gif)
+
 ## Install
 
 ```bash
