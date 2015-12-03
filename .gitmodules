@@ -94,3 +94,6 @@
 [submodule "libs/async"]
 	path = libs/async
 	url = https://github.com/jwiegley/emacs-async.git
+[submodule "libs/s"]
+	path = libs/s
+	url = git@github.com:magnars/s.el.git

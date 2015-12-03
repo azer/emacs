@@ -1,3 +1,4 @@
+(load-conf-file "string")
 (load-conf-file "solarized")
 (load-conf-file "align")
 (load-conf-file "auto-complete")
