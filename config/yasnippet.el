@@ -10,6 +10,19 @@
 (setq yas/trigger-key "M-SPC")
 (global-set-key (kbd "M-SPC") 'yas/expand)
 
+;;(define-key yas-minor-mode-map [(tab)]        nil)
+;;(define-key yas-minor-mode-map (kbd "TAB")    nil)
+;;(define-key yas-minor-mode-map (kbd "<tab>")  nil)
+;;(define-key ac-completing-map "\t" nil)
+;;(define-key yas-minor-mode-map (kbd "SPC")     'yas-next-field-or-maybe-expand)
+
+(eval-after-load 'yasnippet
+  '(progn
+     (define-key yas-keymap (kbd "TAB") nil)
+     (define-key yas-keymap (kbd "<tab>") nil)
+     (define-key yas-keymap [(tab)] nil)
+     (define-key yas-keymap [right] 'yas-next-field-or-maybe-expand)))
+
 (eval-after-load 'js2-mode
   '(progn
      (define-key js2-mode-map (kbd "TAB") (lambda()

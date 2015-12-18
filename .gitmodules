@@ -97,3 +97,6 @@
 [submodule "libs/s"]
 	path = libs/s
 	url = git@github.com:magnars/s.el.git
+[submodule "libs/git-grep"]
+	path = libs/git-grep
+	url = git@github.com:yasuyk/helm-git-grep.git
