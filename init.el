@@ -1,3 +1,4 @@
+(package-initialize)
 (defconst +home-dir+ "~")
 (defconst +emacs-dir+ (concat +home-dir+ "/emacs"))
 (defconst +emacs-profiles-dir+ (concat +emacs-dir+ "/profiles"))
