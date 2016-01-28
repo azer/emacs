@@ -22,7 +22,7 @@
       color-theme-is-global t
       shift-select-mode nil
       mouse-yank-at-point t
-      require-final-newline t
+      ;;require-final-newline t
       truncate-partial-width-windows nil
       delete-by-moving-to-trash nil
       uniquify-buffer-name-style 'forward
