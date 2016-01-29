@@ -1,0 +1,4 @@
+func $1($2) error {
+  $0
+  return nil
+}

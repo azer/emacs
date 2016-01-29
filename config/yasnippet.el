@@ -6,6 +6,9 @@
 ;;(yas/load-directory +snippets-dir+)
 ;;(setq yas/snippet-dirs '(+snippets-dir+))
 
+
+(setq yas-snippet-dirs '(+emacs-snippets-dir+))
+
 (yas/global-mode 1)
 (setq yas/trigger-key "M-SPC")
 (global-set-key (kbd "M-SPC") 'yas/expand)

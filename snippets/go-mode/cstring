@@ -1,0 +1,6 @@
+#name : CString
+# expand-env: ((yas/indent-line 'fixed))
+# --
+c${1:$(capitalize yas/text)} := C.CString($1)
+defer C.free(unsafe.Pointer(c${1:$(capitalize yas/text)}))
+

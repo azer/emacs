@@ -5,6 +5,7 @@
 (defconst +emacs-lib-dir+ (concat +emacs-dir+ "/libs"))
 (defconst +emacs-conf-dir+ (concat +emacs-dir+ "/config"))
 (defconst +emacs-tmp-dir+ (concat +emacs-dir+ "/tmp"))
+(defconst +emacs-snippets-dir+ (concat +emacs-dir+ "/snippets"))
 
 ;; new projects will be created under this directory
 (defconst +dev-dir+ (concat +home-dir+ "/dev"))

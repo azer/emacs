@@ -1,0 +1,11 @@
+func (${1:$(s-lower-camel-case yas-text)} $1) Len() int {
+  return len(${1:$(s-lower-camel-case yas-text)})
+}
+
+func (${1:$(s-lower-camel-case yas-text)} $1) Swap(i, j int)      {
+  ${1:$(s-lower-camel-case yas-text)}[i], ${1:$(s-lower-camel-case yas-text)}[j] = ${1:$(s-lower-camel-case yas-text)}[j], ${1:$(s-lower-camel-case yas-text)}[i]
+}
+
+func (${1:$(s-lower-camel-case yas-text)} $1) Less(i, j int) bool {
+  return ${1:$(s-lower-camel-case yas-text)}[i].$2 < ${1:$(s-lower-camel-case yas-text)}[j].$2
+}

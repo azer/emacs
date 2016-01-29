@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: range
+# --
+for ${1:_}, ${2:$(substring yas-text 0 1)} := range ${2:list} {
+    $0
+}

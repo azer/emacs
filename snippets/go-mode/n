@@ -1,0 +1,1 @@
+${1:$(s-lower-camel-case yas-text)} *$1
