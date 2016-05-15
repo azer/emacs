@@ -11,7 +11,7 @@
 
 (setq create-lockfiles nil)
 
-(setq-default truncate-lines nil)
+(set-default 'truncate-lines t)
 
 (setq visible-bell t
       column-number-mode t

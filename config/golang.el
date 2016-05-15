@@ -8,6 +8,7 @@
 (require 'go-errcheck)
 
 (add-hook 'before-save-hook 'gofmt-before-save)
+;;(add-hook 'before-save-hook 'go-remove-unused-imports)
 
 (add-hook
  'go-mode-hook (lambda () (setq indent-tabs-mode t)))

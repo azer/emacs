@@ -27,7 +27,7 @@
 (dolist (mode '(magit-log-edit-mode log-edit-mode org-mode text-mode haml-mode
                 sass-mode yaml-mode csv-mode espresso-mode haskell-mode
                 html-mode nxml-mode sh-mode smarty-mode clojure-mode
-                lisp-mode javascript-mode textile-mode markdown-mode tuareg-mode))
+                lisp-mode javascript-mode js2-mode js2-jsx-mode textile-mode markdown-mode tuareg-mode))
   (add-to-list 'ac-modes mode))
 
 ;;Key triggers

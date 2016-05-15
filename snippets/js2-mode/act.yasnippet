@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: action
+# key: act
+# --
+
+const $1 = '$1';
+
+export default function ${1:$(s-lower-camel-case yas-text)} () {
+  return {
+    type: $1,
+    $0
+  }
+}
