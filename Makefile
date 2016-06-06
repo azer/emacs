@@ -21,7 +21,7 @@ install-helm:
 	@cd libs/helm && make
 
 install-go-tools:
-	@go get code.google.com/p/rog-go/exp/cmd/godef
+	@go get github.com/rogpeppe/godef
 	@go get -u github.com/nsf/gocode
 
 init-submodules:
