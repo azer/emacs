@@ -6,7 +6,7 @@
 	url = https://github.com/azer/coffee-mode.git
 [submodule "libs/dash"]
 	path = libs/dash
-	url = git@github.com:magnars/dash.el.git
+	url = https://github.com/magnars/dash.el.git
 [submodule "libs/expand-region"]
 	path = libs/expand-region
 	url = https://github.com/magnars/expand-region.el.git
@@ -57,37 +57,37 @@
 	url = https://github.com/clojure-emacs/clojure-mode.git
 [submodule "libs/gocode"]
 	path = libs/gocode
-	url = git@github.com:nsf/gocode.git
+	url = https://github.com/nsf/gocode.git
 [submodule "libs/go-errcheck"]
 	path = libs/go-errcheck
-	url = git@github.com:dominikh/go-errcheck.el.git
+	url = https://github.com/dominikh/go-errcheck.el.git
 [submodule "libs/slim"]
 	path = libs/slim
-	url = git@github.com:slim-template/emacs-slim.git
+	url = https://github.com/slim-template/emacs-slim.git
 [submodule "libs/fiplr"]
 	path = libs/fiplr
-	url = git@github.com:grizzl/fiplr.git
+	url = https://github.com/grizzl/fiplr.git
 [submodule "libs/grizzl"]
 	path = libs/grizzl
-	url = git@github.com:grizzl/grizzl.git
+	url = https://github.com/grizzl/grizzl.git
 [submodule "libs/web-mode"]
 	path = libs/web-mode
-	url = git@github.com:fxbois/web-mode.git
+	url = https://github.com/fxbois/web-mode.git
 [submodule "libs/flycheck"]
 	path = libs/flycheck
-	url = git@github.com:flycheck/flycheck.git
+	url = https://github.com/flycheck/flycheck.git
 [submodule "libs/magit"]
 	path = libs/magit
 	url = git://github.com/magit/magit.git
 [submodule "libs/solarized"]
 	path = libs/solarized
-	url = git@github.com:sellout/emacs-color-theme-solarized.git
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
 [submodule "libs/solarized-theme"]
 	path = libs/solarized-theme
-	url = git@github.com:sellout/emacs-color-theme-solarized.git
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
 [submodule "libs/go-mode"]
 	path = libs/go-mode
-	url = git@github.com:dominikh/go-mode.el.git
+	url = https://github.com/dominikh/go-mode.el.git
 [submodule "libs/helm"]
 	path = libs/helm
 	url = https://github.com/emacs-helm/helm.git
@@ -96,7 +96,7 @@
 	url = https://github.com/jwiegley/emacs-async.git
 [submodule "libs/s"]
 	path = libs/s
-	url = git@github.com:magnars/s.el.git
+	url = https://github.com/magnars/s.el.git
 [submodule "libs/git-grep"]
 	path = libs/git-grep
-	url = git@github.com:yasuyk/helm-git-grep.git
+	url = https://github.com/yasuyk/helm-git-grep.git
