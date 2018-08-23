@@ -1,4 +1,4 @@
-## Azer's Emacs Setup
+## Azer's Emacs Setup  
 
 Ready-to-use Emacs setup for JavaScript and Go programming.
 
